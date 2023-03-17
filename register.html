@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/register.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <center>
+        <h3>Fill your details below !</h3>
+        <form id="registerform" method="POST">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required>
+            <br>
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            <br>
+            <label for="phone">Mobile Number</label>
+            <input type="text" id="phone" name="phone" required>
+            <br>
+            <br>
+            <label for="password">Set Up A Password</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <p id="msg"></p>
+            <button id="button" type="submit">Register</button>
+        </form>
+    </center>
+</body>
+</html>
